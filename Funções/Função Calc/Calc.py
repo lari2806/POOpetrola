@@ -1,4 +1,4 @@
-input(("Bem vindo a calculadora do PP.\nNós diga seu nome: "))
+input(("Bem vindo a calculadora do PP.\ndigite seu nome: "))
 def Soma(x,y):
     return (x+y)
 
