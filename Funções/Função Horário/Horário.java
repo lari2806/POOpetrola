@@ -3,10 +3,10 @@ import java.time.format.DateTimeFormatter;
 class Hora{
     
     public static void main(String[] args){
-        Saudação();
+        saudação();
     }
 
-    public static void Saudação(){
+    public static void saudação(){
         var hora_A =LocalTime.now();
         var horaf = hora_A.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
         System.out.println("o horário é: " + horaf);
