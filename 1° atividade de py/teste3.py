@@ -1,12 +1,12 @@
 name = (input("Qual seu nome?\n"))
-num = int(input("Informe um horário: "))
-if num >= 5 and num <= 11:
+horario = int(input("Informe um horário: "))
+if horario >= 5 and horario <= 11:
     print("bom dia " + name)
-elif num >= 12 and num <= 18:
+elif horario >= 12 and horario <= 18:
     print("boa tarde "+ name)
-elif num >= 19 and num <= 23:
+elif horario >= 19 and horario <= 23:
     print("boa noite "+ name)
-elif num >= 0 and num <= 4:
+elif horario >= 0 and horario <= 4:
     print(" VAI DORMIR "+ name)
 else:
     print("esse horário não existe")
