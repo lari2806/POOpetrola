@@ -1,2 +1,2 @@
 # POOpetrola
-atividade Wendel POO
+### Repositório feito para concluir atividades de POO do curso técnico.
