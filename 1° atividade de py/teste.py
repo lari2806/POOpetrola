@@ -1,2 +1,2 @@
 nome = input("digite seu nome: ")
-print(nome,"bom dia!!")
+print(nome," bom dia!!")
